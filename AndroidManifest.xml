@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="auto"
+    package="com.yeno.checklist"
+    android:versionCode="6"
+    android:versionName="1.5" >
+	<uses-sdk android:targetSdkVersion="8" android:minSdkVersion="4" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	
+    <application
+        android:debuggable="false"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Yeno" >
+        <activity android:name=".view.ChecklistGroupSelectionActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.ChecklistSelectionActivity" />
+        <activity android:name=".view.ChecklistActivity" />
+        <activity android:name=".view.ChecklistGroupEditActivity" />
+        <activity android:name=".view.ChecklistEditActivity" />
+        <activity android:name=".view.ChecklistReorderingActivity" />
+        <activity android:name=".view.TaskEditActivity" />
+        <activity android:name=".view.TaskReorderingActivity" />
+        <activity android:name=".view.ChecklistGroupReorderingActivity" />
+        <activity android:name=".view.LicenseAgreementActivity" />
+        <activity android:name=".view.ChecklistPreferenceActivity" />
+        <activity android:name=".view.GlobalPreferenceActivity" />
+    </application>
+
+</manifest>

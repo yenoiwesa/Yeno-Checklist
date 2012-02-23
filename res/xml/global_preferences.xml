@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/email_prefs_cat">
+		<EditTextPreference android:key="@string/pref_email_default_recipients"
+			android:title="@string/pref_email_default_recipients_label"
+			android:persistent="true" android:summary="@string/pref_email_default_recipients_sum"
+			android:hint="@string/pref_email_default_recipients_hint"
+			android:inputType="text|textEmailAddress"></EditTextPreference>
+		<ListPreference android:key="@string/pref_email_default_subject"
+			android:title="@string/pref_email_default_subject_label"
+			android:persistent="true" android:dialogTitle="@string/pref_email_default_subject_label"
+			android:summary="@string/pref_email_default_subject_sum"
+			android:entries="@array/pref_email_default_subject_choices"
+			android:entryValues="@array/pref_email_default_subject_choices_values" />
+		<CheckBoxPreference android:key="@string/pref_email_include_task_notes"
+			android:title="@string/pref_email_include_task_notes_label"
+			android:summaryOn="@string/pref_email_include_task_notes_sum_on"
+			android:summaryOff="@string/pref_email_include_task_notes_sum_off"
+			android:persistent="true" android:defaultValue="true" />
+	</PreferenceCategory>
+</PreferenceScreen>

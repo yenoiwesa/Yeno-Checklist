@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="false" android:drawable="@drawable/nav_bar_button" /> <!-- disabled -->
+	<item android:state_pressed="true"
+		android:drawable="@drawable/nav_bar_problem_button_hover" /> <!-- pressed -->
+	<item android:state_focused="true"
+		android:drawable="@drawable/nav_bar_problem_button_hover" /> <!-- focused -->
+	<item android:drawable="@drawable/nav_bar_problem_button_normal" /> <!-- default -->
+</selector>

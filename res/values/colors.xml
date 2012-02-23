@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="opaque_white">#fff</color>
+   <color name="opaque_light_blue">#eaf5ff</color>
+   <color name="opaque_dark_gray">#424242</color>
+   <color name="opaque_light_gray">#d2d2d2</color>
+   <color name="form_label_color">#81878b</color>
+   <color name="form_dark_label_color">#71777b</color>
+   <color name="form_hint_color">#cccccc</color>
+   <color name="blue_color">#35b1f1</color>
+   <color name="problem_text_color">#ffc54d39</color>
+   <color name="transparent_blue_color">#20358ECA</color>
+</resources>

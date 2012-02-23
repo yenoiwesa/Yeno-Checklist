@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/quick_actions_prefs_cat">
+		<CheckBoxPreference android:key="@string/pref_show_focused_task"
+			android:title="@string/pref_show_focused_task_label"
+			android:summaryOn="@string/pref_show_focused_task_sum_on"
+			android:summaryOff="@string/pref_show_focused_task_sum_off"
+			android:persistent="true" android:defaultValue="true" />
+		<CheckBoxPreference android:key="@string/pref_show_quick_actions_bar"
+			android:title="@string/pref_show_quick_actions_bar_label"
+			android:dependency="@string/pref_show_focused_task"
+			android:summaryOn="@string/pref_show_quick_actions_bar_sum_on"
+			android:summaryOff="@string/pref_show_quick_actions_bar_sum_off"
+			android:persistent="true" android:defaultValue="true" />
+		<CheckBoxPreference android:key="@string/pref_override_trackball_behavior"
+			android:title="@string/pref_override_trackball_behavior_label"
+			android:dependency="@string/pref_show_focused_task"
+			android:summaryOn="@string/pref_override_trackball_behavior_sum_on"
+			android:summaryOff="@string/pref_override_trackball_behavior_sum_off"
+			android:persistent="true" android:defaultValue="true" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/text_to_speech_prefs_cat">
+		<ListPreference android:key="@string/pref_tts_default_locale"
+			android:title="@string/pref_tts_default_locale_label"
+			android:dialogTitle="@string/pref_tts_default_locale_label"
+			android:summary="@string/pref_tts_default_locale_sum"
+			android:entries="@array/text_to_speech_locales" android:entryValues="@array/text_to_speech_locale_values" />
+		<CheckBoxPreference android:key="@string/pref_text_to_speech_on_tap"
+			android:title="@string/pref_text_to_speech_on_tap_label"
+			android:summaryOn="@string/pref_text_to_speech_on_tap_sum_on"
+			android:summaryOff="@string/pref_text_to_speech_on_tap_sum_off"
+			android:persistent="true" android:defaultValue="false" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/task_edition_prefs_cat">
+		<EditTextPreference android:key="@string/pref_task_default_result"
+			android:title="@string/pref_task_default_result_label"
+			android:persistent="true" android:summary="@string/pref_task_default_result_sum"
+			android:hint="@string/result_label" android:defaultValue="@string/default_result"></EditTextPreference>
+	</PreferenceCategory>
+</PreferenceScreen>

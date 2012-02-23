@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="NavigationBar">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:background">@drawable/header_image</item>
+	</style>
+	<style name="Theme.Yeno" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/light_background</item>
+    </style>
+</resources>

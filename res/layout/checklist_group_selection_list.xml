@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+	<LinearLayout style="@style/NavigationBar">
+		<TextView android:layout_height="fill_parent" android:textColor="@color/opaque_white"
+			android:gravity="center" android:textSize="22dp" android:textStyle="bold"
+			android:text="@string/checklist_groups" android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+		<Button android:id="@+id/done_button" android:layout_gravity="center_vertical"
+			android:background="@drawable/nav_bar_ok_button"
+			android:layout_margin="5dp"
+			android:layout_width="68dp" android:textSize="16dp"
+			android:textColor="@color/nav_bar_button_label" android:gravity="center"
+			android:text="@string/done_button" android:visibility="gone" android:layout_height="32dp"></Button>
+	</LinearLayout>
+	<ListView android:id="@+id/selection_list"
+		android:layout_height="match_parent" android:layout_width="match_parent"
+		android:choiceMode="singleChoice" android:footerDividersEnabled="false"
+		android:headerDividersEnabled="false" android:listSelector="@android:color/transparent"
+		android:divider="#00000000" android:fadingEdge="none"
+		android:background="#00000000" android:cacheColorHint="#00000000"></ListView>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="10dp" android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<ImageButton android:id="@+id/delete_button"
+		android:layout_gravity="center" android:visibility="visible"
+		android:src="@drawable/delete" android:layout_width="wrap_content"
+		android:background="@android:color/transparent" android:paddingBottom="10dp"
+		android:paddingLeft="10dp" android:paddingRight="15dp"
+		android:paddingTop="10dp" android:layout_height="match_parent"></ImageButton>
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_weight="1" android:orientation="vertical"
+		android:background="@drawable/checklist_item_title"
+		android:paddingTop="10dp" android:paddingBottom="10dp"
+		android:paddingLeft="13dp" android:gravity="center_vertical"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="match_parent"
+			android:textColor="@color/opaque_dark_gray" android:textSize="18dp"
+			android:gravity="left|center_vertical" android:id="@+id/checklist_title"
+			android:layout_height="wrap_content" android:layout_gravity="center"></TextView>
+		<TextView android:id="@+id/checklist_comment"
+			android:layout_width="match_parent" android:textColor="@color/form_dark_label_color"
+			android:layout_gravity="center" android:textSize="13dp"
+			android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<LinearLayout android:background="@drawable/checklist_item_info"
+		android:layout_width="wrap_content" android:layout_height="match_parent">
+		<Button android:layout_gravity="center" android:background="@drawable/task_small" android:id="@+id/checklist_state_button"
+			android:focusable="false" android:layout_width="40dp" android:layout_height="40dp"></Button>
+		<Button android:background="@drawable/speech_small"
+			android:id="@+id/read_button" android:layout_gravity="center"
+			android:focusable="false" android:layout_width="40dp" android:layout_height="40dp"></Button>
+	</LinearLayout>
+	<ImageButton android:id="@+id/edit_button"
+		android:background="@android:color/transparent"
+		android:layout_gravity="center" android:src="@drawable/edit"
+		android:focusable="false" android:visibility="visible"
+		android:layout_width="wrap_content" android:layout_height="match_parent"
+		android:paddingBottom="10dp" android:paddingLeft="15dp"
+		android:paddingRight="10dp" android:paddingTop="10dp"></ImageButton>
+</LinearLayout>

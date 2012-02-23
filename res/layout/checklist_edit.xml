@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+	<LinearLayout style="@style/NavigationBar">
+		<Button android:layout_gravity="center_vertical" android:id="@+id/cancel_button"
+			android:text="@string/cancel_button_label" android:background="@drawable/nav_bar_button"
+			android:layout_margin="5dp"
+			android:layout_width="68dp" android:textSize="16dp"
+			android:textColor="@color/nav_bar_button_label" android:gravity="center" android:layout_height="32dp"></Button>
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:textColor="@color/opaque_white"
+			android:gravity="center" android:textStyle="bold" android:layout_weight="1" android:textSize="20dp" android:text="@string/checklist"></TextView>
+		<Button android:id="@+id/save_button" android:text="@string/save_button_label"
+			android:layout_gravity="center_vertical" android:background="@drawable/nav_bar_ok_button"
+			android:layout_margin="5dp"
+			android:layout_width="68dp" android:textSize="16dp"
+			android:textColor="@color/nav_bar_button_label" android:gravity="center" android:layout_height="32dp"></Button>
+	</LinearLayout>
+	<ScrollView android:layout_width="match_parent"
+		android:layout_height="match_parent" android:fadingEdge="none">
+		<LinearLayout android:orientation="vertical"
+			android:layout_height="match_parent" android:layout_width="match_parent">
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_margin="10dp">
+				<TextView android:background="@drawable/form_field_alone_label"
+					android:layout_gravity="center" android:gravity="right|center_vertical"
+					android:text="@string/name_label" android:textColor="@color/form_label_color"
+					android:textSize="16dp" android:layout_height="42dp"
+					android:textStyle="bold" android:layout_width="120dp"></TextView>
+				<EditText android:layout_width="fill_parent"
+					android:background="@drawable/form_field_alone_entry"
+					android:layout_height="42dp" android:layout_gravity="center"
+					android:gravity="left|center_vertical" android:textSize="16dp"
+					android:textColorHint="@color/form_hint_color" android:imeOptions="actionNext"
+					android:id="@+id/name_text" android:hint="@string/name_hint"
+					android:inputType="text|textCapSentences|textPersonName"></EditText>
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_margin="10dp">
+				<TextView android:background="@drawable/form_field_alone_label"
+					android:layout_gravity="center" android:gravity="right|center_vertical"
+					android:textColor="@color/form_label_color"
+					android:textSize="16dp" android:layout_height="42dp"
+					android:textStyle="bold" android:layout_width="120dp" android:text="@string/speech_locale_label"></TextView>
+				<Button android:layout_width="fill_parent"
+					android:background="@drawable/form_field_alone_entry"
+					android:layout_height="42dp" android:layout_gravity="center"
+					android:gravity="left|center_vertical" android:textSize="16dp"
+					android:id="@+id/speech_locale_button"></Button>
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_margin="10dp">
+				<TextView android:background="@drawable/form_field_alone_label"
+					android:layout_gravity="center" android:text="@string/description_label"
+					android:textColor="@color/form_label_color" android:textSize="16dp"
+					android:textStyle="bold" android:gravity="right"
+					android:layout_width="120dp" android:layout_height="200dp"></TextView>
+				<EditText android:layout_width="fill_parent"
+					android:background="@drawable/form_field_alone_entry"
+					android:layout_gravity="center" android:textSize="16dp"
+					android:textColorHint="@color/form_hint_color" android:imeOptions="actionNext"
+					android:id="@+id/description_text" android:hint="@string/description_hint"
+					android:gravity="left" android:layout_height="200dp"
+					android:inputType="text|textCapSentences|textMultiLine|textShortMessage"></EditText>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout style="@style/NavigationBar">
+		<ImageButton android:layout_width="wrap_content"
+			android:id="@+id/change_checklist_group" android:src="@drawable/checklist_group_nav"
+			android:layout_gravity="center_vertical" android:layout_margin="5dp"
+			android:layout_height="wrap_content" android:background="@drawable/nav_bar_back_button"></ImageButton>
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:textColor="@color/opaque_white"
+			android:gravity="center" android:textSize="22dp" android:textStyle="bold"
+			android:text="@string/checklist_activity_name" android:id="@+id/checklist_group_name"
+			android:ellipsize="end" android:inputType="text"
+			android:layout_weight="1"></TextView>
+		<ImageButton android:layout_gravity="center_vertical"
+			android:layout_margin="5dp" android:id="@+id/quick_add_button"
+			android:layout_height="wrap_content" android:src="@drawable/quick_add_nav"
+			android:layout_width="50dp" android:background="@drawable/nav_bar_button"></ImageButton>
+		<Button android:id="@+id/done_button" android:layout_gravity="center_vertical"
+			android:background="@drawable/nav_bar_ok_button"
+			android:layout_margin="5dp" android:layout_width="68dp"
+			android:textSize="16dp" android:textColor="@color/nav_bar_button_label"
+			android:gravity="center" android:text="@string/done_button"
+			android:visibility="gone" android:layout_height="32dp"></Button>
+	</LinearLayout>
+	<EditText android:id="@+id/quick_add_text"
+		android:layout_width="match_parent" android:inputType="text|textCapSentences|textMultiLine"
+		android:background="@drawable/quick_add_background"
+		android:layout_height="50dp" android:hint="@string/quick_add_checklist_text_hint" android:textColorHint="@color/form_hint_color"></EditText>
+	<ListView android:id="@+id/selection_list"
+		android:layout_height="match_parent" android:layout_width="match_parent"
+		android:choiceMode="singleChoice" android:footerDividersEnabled="false"
+		android:headerDividersEnabled="false" android:listSelector="@android:color/transparent"
+		android:divider="#00000000" android:fadingEdge="none" android:cacheColorHint="#00000000" android:background="#00000000"></ListView>
+</LinearLayout>

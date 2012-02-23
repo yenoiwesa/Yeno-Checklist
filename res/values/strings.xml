@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Checklist</string>
+
+	<string name="checklist_activity_name">Checklists</string>
+
+	<string name="save_button_label">Save</string>
+	<string name="cancel_button_label">Cancel</string>
+	<string name="close_button_label">Close</string>
+
+	<string name="checklist_groups">Checklist Groups</string>
+	<string name="checklist_group">Checklist Group</string>
+	<string name="checklist">Checklist</string>
+	<string name="task">Task</string>
+	<string name="skip_button">Skip</string>
+	<string name="check_button">Check</string>
+	<string name="done_button">Done</string>
+	<string name="quick_actions_done_button">Done</string>
+
+	<string name="reset_tasks_menu">Reset all</string>
+	<string name="check_tasks_menu">Check all</string>
+	<string name="new_checklist_group_menu">New group</string>
+	<string name="import_checklist_group_menu">Import group</string>
+	<string name="export_checklist_group_menu">Export group</string>
+	<string name="edit_checklist_groups_menu">Edit/Delete</string>
+	<string name="new_checklist_menu">New checklist</string>
+	<string name="reorder_checklists_menu">Reorder</string>
+	<string name="edit_checklists_menu">Edit/Delete</string>
+	<string name="new_task_menu">New task</string>
+	<string name="reorder_tasks_menu">Reorder</string>
+	<string name="edit_tasks_menu">Edit/Delete</string>
+	<string name="settings_menu">Settings</string>
+	<string name="send_menu">Send…</string>
+	<string name="reset_checklists_menu">Reset all</string>
+
+	<string name="dialog_pick_checklist_group_send">Pick the checklist group to send</string>
+	<string name="dialog_pick_checklist_group_file_import">Pick the checklist group to import</string>
+	<string name="dialog_pick_checklist_group_file_export">Pick the checklist group to export</string>
+	<string name="dialog_export_success">The checklist group file has been exported to the
+		root directory of the SD Card as: %s</string>
+	<string name="info_import_checklist_group_title">Importing checklist group</string>
+	<string name="info_import_checklist_group_message">This import utility will search for valid checklist
+		group files in the root directory of the SD Card, and let you choose
+		the file to import from the
+		result list.</string>
+	<string name="info_import_checklist_group_nothing_found_message">No valid checklist group file has been found on the
+		root SD Card directory.</string>
+	<string name="info_export_checklist_group_nothing_found_message">No checklist group to export.</string>
+	<string name="warning_sd_card_not_available_title">Cannot read SD Card</string>
+	<string name="warning_sd_card_not_available_message">The files located on the SD Card are not available
+		at the moment. The SD Card is likely to be absent or mounted as a PC
+		connected drive. You may want to try again later.</string>
+	<string name="warning_delete_checklist_group_message">Are you sure about deleting this checklist group?
+	</string>
+	<string name="warning_delete_checklist_message">Are you sure about deleting this checklist?
+	</string>
+	<string name="warning_delete_task_message">Are you sure about deleting this task?
+	</string>
+	<string name="task_notes">Notes</string>
+
+	<string name="reorder_label">Reorder</string>
+	<string name="name_label">Name</string>
+	<string name="result_label">Result</string>
+	<string name="default_result">Check</string>
+	<string name="use_default_result_label">Use default result: %s</string>
+	<string name="description_label">Description</string>
+	<string name="name_hint">name</string>
+	<string name="result_hint">result (optional)</string>
+	<string name="description_hint">description (optional)</string>
+
+	<string name="license_agreement">License Agreement</string>
+	<string name="i_agree_label">I agree</string>
+
+	<!-- Version 1.1 -->
+
+	<string name="pref_show_quick_actions_bar_label">Show quick actions bar</string>
+	<string name="pref_show_quick_actions_bar_sum_on">Quick actions bar is displayed at the view\'s
+		bottom.</string>
+	<string name="pref_show_quick_actions_bar_sum_off">Quick actions bar is not displayed.</string>
+
+	<string name="pref_text_to_speech_on_tap_label">Text-to-speech on task tap</string>
+	<string name="pref_text_to_speech_on_tap_sum_on">If text-to-speech is enabled for this checklist,
+		taping on a task will trigger speech synthesis for the next focused
+		task.</string>
+	<string name="pref_text_to_speech_on_tap_sum_off">If text-to-speech is enabled for this checklist,
+		taping on a task will not trigger speech synthesis for the next
+		focused task.</string>
+
+	<string name="pref_task_default_result_label">Tasks default result</string>
+	<string name="pref_task_default_result_sum">The default text result to use when creating or
+		editing tasks.</string>
+
+	<!-- Version 1.2 -->
+
+	<string name="quick_add_task_text_hint">Task name (press Enter to add)</string>
+	<string name="quick_add_checklist_text_hint">Checklist name (press Enter to add)</string>
+
+	<string name="quick_actions_prefs_cat">Quick Actions</string>
+	<string name="text_to_speech_prefs_cat">Text-to-Speech</string>
+	<string name="task_edition_prefs_cat">Task Edition</string>
+
+	<string name="pref_show_focused_task_label">Show focused task</string>
+	<string name="pref_show_focused_task_sum_on">The next task that is not done nor skipped is
+		highlighted.</string>
+	<string name="pref_show_focused_task_sum_off">No task is highlighted.</string>
+
+	<string name="pref_override_trackball_behavior_label">Override trackball\'s behavior</string>
+	<string name="pref_override_trackball_behavior_sum_on">Clicking the device\'s trackball will check the
+		focused task.</string>
+	<string name="pref_override_trackball_behavior_sum_off">The device\'s trackball behaves normally.</string>
+
+	<string name="pref_tts_default_locale_label">Default speech language</string>
+	<string name="pref_tts_default_locale_sum">The default language that will be used for speech
+		synthesis.</string>
+
+	<array name="text_to_speech_locales">
+		<item>Default</item>
+		<item>English</item>
+		<item>French</item>
+		<item>German</item>
+		<item>Italian</item>
+		<item>Spanish</item>
+	</array>
+
+	<string name="speech_locale_label">Language</string>
+
+	<!-- Version 1.3 -->
+
+	<string name="toast_hint_add_checklists_1">Add a new checklist to this group</string>
+	<string name="toast_hint_add_checklists_2">Press the menu
+		button and select \"New checklist\"
+	</string>
+	<string name="toast_hint_add_3">…or use the upper right Quick Add
+		button</string>
+	<string name="toast_hint_add_tasks_1">Add new tasks to this checklist.</string>
+	<string name="toast_hint_add_tasks_2">Press the menu
+		button and select \"New task\"
+	</string>
+
+	<!-- Version 1.5 -->
+
+	<array name="email_options">
+		<item>As text</item>
+		<item>As XML</item>
+	</array>
+	
+	<string name="email_prefs_cat">Email sending</string>
+	
+	<string name="pref_email_default_recipients_label">Default recipients</string>
+	<string name="pref_email_default_recipients_sum">The default recipients when sending a list by email. Use commas to separate multiple email addresses.</string>
+	<string name="pref_email_default_recipients_hint">email1@gmail.com, email2@gmail.com</string>
+	
+	<string name="pref_email_default_subject_label">Default subject</string>
+	<string name="pref_email_default_subject_sum">The default subject when sending a list by email.</string>
+	<array name="pref_email_default_subject_choices">
+		<item>Group\'s name</item>
+		<item>Group\'s description</item>
+		<item>Group\'s name &amp; description</item>
+		<item>Blank</item>
+	</array>
+	
+	<string name="pref_email_include_task_notes_label">Include tasks\' note</string>
+	<string name="pref_email_include_task_notes_sum_on">The notes will be displayed in emails.</string>
+	<string name="pref_email_include_task_notes_sum_off">The notes will not be displayed in emails.</string>
+	
+	<string name="import_export_checklist_group_menu">Import/Export</string>
+	<string name="release_notes_menu">Release notes</string>
+	<string name="reorder_checklist_groups_menu">Reorder</string>
+	<string name="contact_dev_menu">Contact Yeno</string>
+	
+	<string name="task_problem_dialog_title">Problem details</string>
+	<string name="task_problem_dialog_label">Enter details about the problem (facultative):</string>
+	
+	<string name="mail_sender_problems_review">Problems review:</string>
+	
+	<string name="problems_review_menu">Problems review</string>
+	<string name="no_problem_label">This checklist group does not contain any problem.</string>
+	<string name="clear_all_button">Check all</string>
+	
+	<string name="lose_task_problem_title">Task state</string>
+	<string name="lose_task_problem_label">By doing this, you will clear this task\'s problem. Do you confirm your action?</string>
+	<string name="lose_checklist_problem_title">Checklist state</string>
+	<string name="lose_checklist_problem_label">By doing this, you will clear this checklist\'s problems. Do you confirm your action?</string>
+	
+	<string name="context_menu_edit">Edit</string>
+	<string name="context_menu_delete">Delete</string>
+	<string name="context_menu_blank">Blank</string>
+	<string name="context_menu_done">Done</string>
+	<string name="context_menu_skipped">Skipped</string>
+	<string name="context_menu_problem">Problem</string>
+	<string name="context_menu_info">Info</string>
+	
+	<string name="release_notes"><big>Version 1.5</big>\n
+	<small>- Added \"Move application to the SD Card\" compatibility\n
+	- The paid version now uses Google\'s License Verification Library\n
+	- Added a button to hide/show checked tasks from a checklist\n
+	- Added context menus in all list views\n
+	- Added the Problem task state, with problem details and problems review\n
+	- Added a view to reorder checklist groups\n
+	- Changed the checklist e-mail template (now with colors)\n
+	- Added a settings page to configure default recipients and subject when sending checklists by e-mail\n
+	- Added a \"Release notes\" menu\n
+	- Release notes are now displayed the first time the app is launched after an update\n
+	- Added a menu to contact the Yeno team by e-mail</small>\n
+	\n
+	<big>Version 1.4</big>\n
+	<small>- Small UI enhancements</small></string>
+
+</resources>

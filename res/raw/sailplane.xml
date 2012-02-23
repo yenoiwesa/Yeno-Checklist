@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checklist_group>
+	<name>Sailplane</name>
+	<comment>An example checklist group</comment>
+	<checklist>
+		<name>V-Speeds</name>
+		<comment>Reference</comment>
+		<read>false</read>
+		<task>
+			<name>Vs (stall)</name>
+			<result>36 MPH</result>
+		</task>
+		<task>
+			<name>Vm (min sink)</name>
+			<result>49 MPH</result>
+		</task>
+		<task>
+			<name>Vbg (best glide)</name>
+			<result>55 MPH</result>
+		</task>
+		<task>
+			<name>V (approach)</name>
+			<result>55 MPH</result>
+		</task>
+		<task>
+			<name>Vs (maneuvering)</name>
+			<result>83 MPH</result>
+		</task>
+		<task>
+			<name>Vne (never exceed)</name>
+			<result>135 MPH</result>
+		</task>
+	</checklist>
+	<checklist>
+		<name>Documents</name>
+		<comment>Pre-Flight</comment>
+		<read>false</read>
+		<task>
+			<name>Aircraft registration</name>
+			<result>Check</result>
+		</task>
+		<task>
+			<name>Airworthiness certificate</name>
+			<result>Check</result>
+		</task>
+		<task>
+			<name>Aircraft handbook</name>
+			<result>Check</result>
+		</task>
+		<task>
+			<name>Weight and balance</name>
+			<result>Check</result>
+		</task>
+		<task>
+			<name>Current equipment list</name>
+			<result>Check</result>
+		</task>
+		<task>
+			<name>Aircraft checklists</name>
+			<result>Check</result>
+		</task>
+	</checklist>
+	<checklist>
+		<name>Cabin Check</name>
+		<comment>Pre-Flight</comment>
+		<task>
+			<name>Wing fasteners</name>
+			<result>Check</result>
+		</task>
+		<task>
+			<name>Oxygen</name>
+			<result>On and Pressure Ok</result>
+		</task>
+		<task>
+			<name>Battery</name>
+			<result>Check Voltage</result>
+		</task>
+		<task>
+			<name>Seat</name>
+			<result>Adjust</result>
+		</task>
+		<task>
+			<name>Rudder pedals</name>
+			<result>Adjust</result>
+		</task>
+		<task>
+			<name>Weight and balance</name>
+			<result>Ok</result>
+		</task>
+		<task>
+			<name>Positive control</name>
+			<result>Check</result>
+		</task>
+		<task>
+			<name>Airbrake</name>
+			<result>Check</result>
+		</task>
+	</checklist>
+	<checklist>
+		<name>Walk Around</name>
+		<comment>Pre-Flight</comment>
+		<task>
+			<name>Tire condition</name>
+			<result>Good and Secure</result>
+			<comment>31 psi</comment>
+		</task>
+		<task>
+			<name>Nose skid</name>
+			<result>Condition and Security</result>
+		</task>
+		<task>
+			<name>Release hook</name>
+			<result>Inspect</result>
+		</task>
+		<task>
+			<name>Pilot tube, probe, static ports</name>
+			<result>Check</result>
+			<comment>Damage, frost, aileron, airbrake, tape</comment>
+		</task>
+		<task>
+			<name>Left wing</name>
+			<result>Inspect</result>
+		</task>
+		<task>
+			<name>Elevator and rudder</name>
+			<result>Inspect</result>
+			<comment>Frost, damage, travel, security</comment>
+		</task>
+		<task>
+			<name>Elevator bolts and locking pins</name>
+			<result>Inspect</result>
+		</task>
+		<task>
+			<name>Tail wheel</name>
+			<result>Inspect</result>
+		</task>
+		<task>
+			<name>Right wing</name>
+			<result>Inspect</result>
+			<comment>Damage, frost, aileron, airbrake, tape</comment>
+		</task>
+	</checklist>
+	<checklist>
+		<name>Pre-Takeoff</name>
+		<comment>Takeoff</comment>
+		<task>
+			<name>Straps</name>
+			<result>Tight</result>
+		</task>
+		<task>
+			<name>Rudder pedals</name>
+			<result>Ok</result>
+		</task>
+		<task>
+			<name>Trim</name>
+			<result>Forward</result>
+		</task>
+		<task>
+			<name>Altimeter</name>
+			<result>Set</result>
+		</task>
+		<task>
+			<name>Vario and radio</name>
+			<result>Set</result>
+		</task>
+		<task>
+			<name>Oxygen</name>
+			<result>On, as required</result>
+		</task>
+		<task>
+			<name>Controls</name>
+			<result>Free and Correct</result>
+		</task>
+		<task>
+			<name>Tow rope</name>
+			<result>Check</result>
+		</task>
+		<task>
+			<name>Correct link</name>
+			<result>Check</result>
+		</task>
+		<task>
+			<name>Release</name>
+			<result>Tested</result>
+		</task>
+	</checklist>
+	<checklist>
+		<name>Landing</name>
+		<comment>Landing and Securing</comment>
+		<task>
+			<name>Wind direction</name>
+			<result>Check</result>
+		</task>
+		<task>
+			<name>Undercarriage</name>
+			<result>Down</result>
+		</task>
+		<task>
+			<name>Straps</name>
+			<result>Tight</result>
+		</task>
+		<task>
+			<name>Trim</name>
+			<result>Set to Approach Speed</result>
+		</task>
+		<task>
+			<name>Airbrakes and airspeed</name>
+			<result>Check</result>
+		</task>
+		<task>
+			<name>Look out</name>
+			<result>Traffic</result>
+		</task>
+		<task>
+			<name>Emergency plan</name>
+			<result>Check</result>
+			<comment>Sink, wind, traffic</comment>
+		</task>
+	</checklist>
+	<checklist>
+		<name>Tie Down</name>
+		<comment>Landing and Securing</comment>
+		<task>
+			<name>Nose, wings, and tail</name>
+			<result>Tied Down</result>
+		</task>
+		<task>
+			<name>Rudder and aileron locks</name>
+			<result>Secured</result>
+		</task>
+		<task>
+			<name>Pilot and TE covers</name>
+			<result>On</result>
+		</task>
+		<task>
+			<name>Stick</name>
+			<result>Tied Forward</result>
+		</task>
+		<task>
+			<name>Oxygen tanks</name>
+			<result>Off</result>
+		</task>
+		<task>
+			<name>Aircraft log</name>
+			<result>Entry</result>
+		</task>
+		<task>
+			<name>Radio and vario</name>
+			<result>Off</result>
+		</task>
+		<task>
+			<name>Battery charger</name>
+			<result>Connected, on</result>
+		</task>
+		<task>
+			<name>Canopy</name>
+			<result>Latched</result>
+		</task>
+		<task>
+			<name>Canopy cover</name>
+			<result>Secured</result>
+		</task>
+	</checklist>
+</checklist_group>

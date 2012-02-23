@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="save_button_label">OK</string>
+	<string name="cancel_button_label">Annuler</string>
+	<string name="close_button_label">Fermer</string>
+
+	<string name="checklist_groups">Groupes de Checklist</string>
+	<string name="checklist_group">Groupe</string>
+	<string name="checklist">Checklist</string>
+	<string name="task">Tâche</string>
+	<string name="skip_button">Ignorer</string>
+	<string name="check_button">Valider</string>
+	<string name="done_button">OK</string>
+	<string name="quick_actions_done_button">Terminé</string>
+
+	<string name="reset_tasks_menu">Réinitialiser</string>
+	<string name="check_tasks_menu">Tout valider</string>
+	<string name="new_checklist_group_menu">Nouveau groupe</string>
+	<string name="import_checklist_group_menu">Importer un groupe</string>
+	<string name="export_checklist_group_menu">Exporter un groupe</string>
+	<string name="edit_checklist_groups_menu">Éditer/Supprimer</string>
+	<string name="new_checklist_menu">Nouvelle checklist</string>
+	<string name="reorder_checklists_menu">Réordonner</string>
+	<string name="edit_checklists_menu">Éditer/Supprimer</string>
+	<string name="new_task_menu">Nouvelle tâche</string>
+	<string name="reorder_tasks_menu">Réordonner</string>
+	<string name="edit_tasks_menu">Éditer/Supprimer</string>
+	<string name="settings_menu">Paramètres</string>
+	<string name="send_menu">Envoyer...</string>
+	<string name="reset_checklists_menu">Réinitialiser</string>
+
+	<string name="dialog_pick_checklist_group_send">Choisissez le groupe de checklist à envoyer
+	</string>
+	<string name="dialog_pick_checklist_group_file_import">Choisissez le groupe de checklist à importer
+	</string>
+	<string name="dialog_pick_checklist_group_file_export">Choisissez le groupe de checklist à exporter
+	</string>
+	<string name="dialog_export_success">Le fichier du groupe de checklist a été exporté à
+		la racine de la Carte SD sous le nom : %s</string>
+	<string name="info_import_checklist_group_title">Importation de groupe de checklist</string>
+	<string name="info_import_checklist_group_message">Cet utilitaire d\'importation va rechercher les
+		fichiers de groupe de checklist valides à la racine de la Carte SD,
+		puis vous laissera choisir le fichier à importer parmi la liste.
+	</string>
+	<string name="info_import_checklist_group_nothing_found_message">Aucun fichier valide de groupe de checklist n\'a pu
+		être trouvé à la racine de la Carte SD.</string>
+	<string name="info_export_checklist_group_nothing_found_message">Aucun groupe de checklist à exporter.</string>
+	<string name="warning_sd_card_not_available_title">Impossible de lire la Carte SD</string>
+	<string name="warning_sd_card_not_available_message">Les fichiers situés sur la Carte SD ne sont pas
+		disponibles pour le moment. Il est possible que la Carte SD soit
+		absente, ou connectée en tant que lecteur de disque sur un PC.
+		Veuillez réessayer ultérieurement.</string>
+	<string name="warning_delete_checklist_group_message">Êtes-vous certain de vouloir supprimer ce groupe de
+		checklist ?
+	</string>
+	<string name="warning_delete_checklist_message">Êtes-vous certain de vouloir supprimer cette
+		checklist ?
+	</string>
+	<string name="warning_delete_task_message">Êtes-vous certain de vouloir supprimer cette tâche
+		?
+	</string>
+	<string name="task_notes">Notes</string>
+
+	<string name="reorder_label">Réordonner</string>
+	<string name="name_label">Nom</string>
+	<string name="result_label">Résultat</string>
+	<string name="use_default_result_label">Utiliser le résultat par défaut: %s</string>
+	<string name="description_label">Description</string>
+	<string name="name_hint">nom</string>
+	<string name="result_hint">résultat (facultatif)</string>
+	<string name="description_hint">description (facultatif)</string>
+
+	<string name="license_agreement">Licence Utilisateur</string>
+	<string name="i_agree_label">J\'accepte</string>
+
+	<!-- Version 1.1 -->
+
+	<string name="pref_show_quick_actions_bar_label">Afficher la barre d\'actions rapides</string>
+	<string name="pref_show_quick_actions_bar_sum_on">La barre d\'actions rapides est affichée en bas de
+		la vue.</string>
+	<string name="pref_show_quick_actions_bar_sum_off">La barre d\'actions rapides n\'est pas affichée.
+	</string>
+
+	<string name="pref_text_to_speech_on_tap_label">Synthèse vocale lors d\'un appui sur une tâche
+	</string>
+	<string name="pref_text_to_speech_on_tap_sum_on">Si la synthèse vocale est activée pour cette
+		checklist,
+		appuyer sur une tâche provoquera la lecture de la prochaine
+		tâche cible.</string>
+	<string name="pref_text_to_speech_on_tap_sum_off">Si la synthèse vocale est activée pour cette
+		checklist,
+		appuyer sur une tâche ne provoquera pas la lecture de la
+		prochaine tâche cible.</string>
+
+	<string name="pref_task_default_result_label">Résultat par défaut</string>
+	<string name="pref_task_default_result_sum">Le texte du champs résultat à utiliser par défaut
+		lors de l\'édition et la création de tâches.</string>
+
+	<!-- Version 1.2 -->
+
+	<string name="quick_add_task_text_hint">Tâche (Entrée pour ajouter)</string>
+	<string name="quick_add_checklist_text_hint">Checklist (Entrée pour ajouter)</string>
+
+	<string name="quick_actions_prefs_cat">Actions Rapides</string>
+	<string name="text_to_speech_prefs_cat">Synthèse Vocale</string>
+	<string name="task_edition_prefs_cat">Édition des Tâches</string>
+
+	<string name="pref_show_focused_task_label">Afficher la tâche cible</string>
+	<string name="pref_show_focused_task_sum_on">La prochaine tâche qui n\'est ni validée ni ignorée
+		est en surbrillance.</string>
+	<string name="pref_show_focused_task_sum_off">Aucune tâche n\'est en surbrillance.</string>
+
+	<string name="pref_override_trackball_behavior_label">Modifier le comportement du trackball</string>
+	<string name="pref_override_trackball_behavior_sum_on">Cliquer sur le trackball validera la tâche cible.
+	</string>
+	<string name="pref_override_trackball_behavior_sum_off">Le trackball fonctionne de manière habituelle.
+	</string>
+
+	<string name="pref_tts_default_locale_label">Langue par défaut</string>
+	<string name="pref_tts_default_locale_sum">La langue par défaut qui sera utilisée pour la
+		synthèse vocale.</string>
+
+	<array name="text_to_speech_locales">
+		<item>Défaut</item>
+		<item>Anglais</item>
+		<item>Français</item>
+		<item>Allemand</item>
+		<item>Italien</item>
+		<item>Espagnol</item>
+	</array>
+
+	<string name="speech_locale_label">Langue</string>
+
+	<!-- Version 1.3 -->
+
+	<string name="toast_hint_add_checklists_1">Ajoutez une nouvelle checklist à ce
+		groupe</string>
+	<string name="toast_hint_add_checklists_2">Appuyez sur le bouton menu et sélectionnez
+		\"Nouvelle checklist\"</string>
+	<string name="toast_hint_add_3">...ou utilisez le bouton d\'Ajout Rapide en haut à
+		droite</string>
+	<string name="toast_hint_add_tasks_1">Ajoutez de nouvelles tâches à cette checklist
+	</string>
+	<string name="toast_hint_add_tasks_2">Appuyez sur le bouton menu et sélectionnez
+		\"Nouvelle tâche\"</string>
+
+	<!-- Version 1.5 -->
+
+	<string name="unlicensed_dialog_title">Licence invalide</string>
+	<string name="unlicensed_dialog_body">La licence de cette application n\'est pas valide.
+		Veuillez acheter l\'application sur le Market. Si vous êtes un
+		utilisateur légitime, réessayez avec une connexion internet active.
+	</string>
+	<string name="retry_button">Réessayer</string>
+
+	<array name="email_options">
+		<item>En format texte</item>
+		<item>En format XML</item>
+	</array>
+
+	<string name="email_prefs_cat">Envoi d\'e-mail</string>
+
+	<string name="pref_email_default_recipients_label">Destinataires par défaut</string>
+	<string name="pref_email_default_recipients_sum">Les destinataires par défaut lors de l\'envoi
+		d\'une liste par e-mail. Utilisez une virgule pour séparer plusieurs
+		adresses e-mail.</string>
+
+	<string name="pref_email_default_subject_label">Sujet par défaut</string>
+	<string name="pref_email_default_subject_sum">Le sujet par défaut lors de l\'envoi d\'une liste
+		par e-mail.</string>
+	<array name="pref_email_default_subject_choices">
+		<item>Nom du groupe</item>
+		<item>Description du groupe</item>
+		<item>Nom &amp; description</item>
+		<item>Vide</item>
+	</array>
+
+	<string name="pref_email_include_task_notes_label">Inclure les notes des tâches</string>
+	<string name="pref_email_include_task_notes_sum_on">Les notes associées aux tâches seront affichées
+		dans les e-mails.</string>
+	<string name="pref_email_include_task_notes_sum_off">Les notes associées aux tâches ne seront pas
+		affichées dans les e-mails.</string>
+
+	<string name="import_export_checklist_group_menu">Importer/Exporter</string>
+	<string name="release_notes_menu">Notes de version</string>
+	<string name="reorder_checklist_groups_menu">Réordonner</string>
+	<string name="contact_dev_menu">Contacter Yeno</string>
+	
+	<string name="task_problem_dialog_title">Détails du problème</string>
+	<string name="task_problem_dialog_label">Renseignez des détails à propos de ce problème (facultatif) :</string>
+	
+	<string name="mail_sender_problems_review">Synthèse des problèmes :</string>
+	
+	<string name="problems_review_menu">Revue des problèmes</string>
+	<string name="no_problem_label">Ce groupe de checklist ne contient aucun problème.</string>
+	<string name="clear_all_button">Tout valider</string>
+	
+	<string name="lose_task_problem_title">Etat de la tâche</string>
+	<string name="lose_task_problem_label">En faisant ceci, vous allez effacer le problème de cette tâche. Confirmez-vous cette action ?</string>
+	<string name="lose_checklist_problem_title">Etat de la checklist</string>
+	<string name="lose_checklist_problem_label">En faisant ceci, vous allez effacer les problèmes de cette checklist. Confirmez-vous cette action ?</string>
+	
+	<string name="context_menu_edit">Editer</string>
+	<string name="context_menu_delete">Supprimer</string>
+	<string name="context_menu_blank">Vierge</string>
+	<string name="context_menu_done">Fait</string>
+	<string name="context_menu_skipped">Ignoré</string>
+	<string name="context_menu_problem">Problème</string>
+	<string name="context_menu_info">Info</string>
+
+</resources>
